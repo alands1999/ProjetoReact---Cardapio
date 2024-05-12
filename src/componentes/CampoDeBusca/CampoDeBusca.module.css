@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    border-radius: 20px;
+    border: 2px solid #f3f3f3;
+    margin-bottom: 40px;
+}
+.lupa {
+    width: auto;
+    height: 25px;
+}
+
+.busca {
+    padding: 10px;
+    border: none;
+
+}
+.busca:focus {
+    outline: none;
+}

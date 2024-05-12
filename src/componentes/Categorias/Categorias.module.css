@@ -1,0 +1,56 @@
+.container_buttons {
+    margin: 40px auto 20px auto;
+    display: flex;
+    gap: 10px;
+}
+.botao_img {
+    display: flex;
+    width: auto;
+    gap: 5px;
+}
+.botao {
+    width: 150px;
+    padding: 13px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+.botao:active {
+    background-color: #daa520;
+}
+
+.botao h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+}
+
+.imagem {
+    width: 20px;
+    height: auto;
+    margin-left: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .container_buttons {
+        padding: 0px 10px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .container_buttons {
+       flex-wrap: wrap;
+    }
+    .botao {
+        flex: 2 2 auto;
+    }
+    .botao h3 {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+}
